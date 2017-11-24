@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WUM quiz - Wylosowany element</title>
+</head>
+<body>
+<h2>Twoja fiszka</h2>
+<div class="fiche">
+    <div class="fiche-value">{{randed_values.fiche_main}}</div>
+    <div id="fiche-answer" style="display: none;">
+        {{randed_values.fiche_hidden}}
+    </div>
+    <button type="button" onclick="show_answer()">Pokaż odpowiedź</button>
+</div>
+<div class="navigation">
+    <a href="/">< Wróć</a>
+    <a href="rand_element?what={{randed_values.selected}}"> Losuj nową fiszkę</a>
+</div>
+</body>
+<script>
+    function show_answer() {
+        document.getElementById('fiche-answer').style.display = '';
+    }
+</script>
+</html>
