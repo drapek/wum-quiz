@@ -1,0 +1,180 @@
+category_type;category;element_type;element
+;Micrococcus;;M. luteus
+;Micrococcus;;M. roseus
+;Staphylococcus;Koagulazo-dodatnie;S. aureus subsp. aureus
+;Staphylococcus;Koagulazo-dodatnie;S. aureus subsp. anaerobius
+;Staphylococcus;Koagulazo-dodatnie, Gronkowce grupy SIG (Staphylococcus intermedius group);S. intermedius 
+;Staphylococcus;Koagulazo-dodatnie, Gronkowce grupy SIG (Staphylococcus intermedius group);S. pseudointermedius
+;Staphylococcus;Koagulazo-dodatnie, Gronkowce grupy SIG (Staphylococcus intermedius group);S. delphini 
+;Staphylococcus;Koagulazo-dodatnie;S. hyicus 
+;Staphylococcus;Koagulazo-dodatnie;S. schleiferi subsp. coagulans  
+;Staphylococcus;Koagulazo-ujemne;S. epidermidis
+;Staphylococcus;Koagulazo-ujemne;S. haemolyticus
+;Staphylococcus;Koagulazo-ujemne;S. lugdunensis
+;Staphylococcus;Koagulazo-ujemne;S. saprophyticus
+;Staphylococcus;Koagulazo-ujemne;S. hominis
+;Staphylococcus;Koagulazo-ujemne;S. warneri
+;Staphylococcus;Koagulazo-ujemne;S. saccharolyticus
+;Staphylococcus;Koagulazo-ujemne;S. cohnii subsp. cohnii i urealyticus
+;Staphylococcus;Koagulazo-ujemne;S. simulans  
+;Staphylococcus;Koagulazo-ujemne;S. schleiferi subsp. schleiferi
+;Staphylococcus;Koagulazo-ujemne;S. capitis  subsp. capitis  i urealyticus 
+;Streptococcus;Ropotwórcze;S. pyogenes – gr A
+;Streptococcus;Ropotwórcze;S. agalactiae – gr B
+;Streptococcus;Ropotwórcze;S. dysgalactiae subsp. dysgalactiae – gr C
+;Streptococcus;Ropotwórcze;S. dysgalactiae subsp.  equisimilis – gr C
+;Streptococcus;Ropotwórcze;S. equi subsp. equi – gr C
+;Streptococcus;Ropotwórcze;S. equi subsp. zooepidemicus – gr C
+;Streptococcus;Grupa Mitis;S. mitis
+;Streptococcus;Grupa Mitis;S. oralis
+;Streptococcus;Grupa Mitis;S. sanguinis
+;Streptococcus;Grupa Mitis;S. pneumoniae
+;Streptococcus;Grupa Mutans ;S. mutans
+;Streptococcus;Grupa Salivarius;S. salivarius
+;Streptococcus;Grupa Anginosus;S. anginosus
+;Enterococcus;;E. faecalis 
+;Enterococcus;;E. faecium
+;Enterococcus;;E. gallinarum
+;Enterococcus;;E. casseliflavus
+;Enterococcus;;E. durans
+;Enterococcus;;E. avium
+;Enterococcus;;E. raffinosus
+;Enterococcus;;E. hirrae
+ENTEROBACTERIACEAE;Escherichia;;E. coli
+ENTEROBACTERIACEAE;Escherichia;;Serotypy E. coli (patogeny układu pokarmowego)
+ENTEROBACTERIACEAE;Salmonella;;S. enterica subsp. enterica
+ENTEROBACTERIACEAE;Salmonella;Serowary;S. Enteritidis
+ENTEROBACTERIACEAE;Salmonella;Serowary;S. Typhi
+ENTEROBACTERIACEAE;Salmonella;Serowary;S. Paratyphi
+ENTEROBACTERIACEAE;Salmonella;Serowary;S, Typhimurium
+ENTEROBACTERIACEAE;Salmonella;;S. bongori
+ENTEROBACTERIACEAE;Shigella;;S. dysenteriae
+ENTEROBACTERIACEAE;Shigella;;S. flexnerii
+ENTEROBACTERIACEAE;Shigella;;S. boydii
+ENTEROBACTERIACEAE;Shigella;;S. sonnei
+ENTEROBACTERIACEAE;Klebsiella;;K. pneumoniae subsp. pneumoniae
+ENTEROBACTERIACEAE;Klebsiella;;K. pneumoniae subsp. ozaenae
+ENTEROBACTERIACEAE;Klebsiella;;K. pneumoniae subsp. rhinoscleromatis
+ENTEROBACTERIACEAE;Klebsiella;;K. oxytoca
+ENTEROBACTERIACEAE;Enterobacter;;E. cloacae
+ENTEROBACTERIACEAE;Serratia;;S. marcescens
+ENTEROBACTERIACEAE;Proteus;;P. mirabilis
+ENTEROBACTERIACEAE;Proteus;;P. vulgaris
+ENTEROBACTERIACEAE;Proteus;;P. penneri
+ENTEROBACTERIACEAE;Morganella;;M. morganii
+ENTEROBACTERIACEAE;Citrobacter;;C. freundii
+ENTEROBACTERIACEAE;Yersinia;;Y. pestis 
+ENTEROBACTERIACEAE;Yersinia;;Y. enterocolitica
+ENTEROBACTERIACEAE;Yersinia;;Y. pseudotuberculosis
+NIEFERMENTUJĄCE PAŁECZKI GRAM-UJEMNE;Pseudomonas;;P. aeruginosa
+NIEFERMENTUJĄCE PAŁECZKI GRAM-UJEMNE;Pseudomonas;;P. fluorescens
+NIEFERMENTUJĄCE PAŁECZKI GRAM-UJEMNE;Pseudomonas;;P. putida
+NIEFERMENTUJĄCE PAŁECZKI GRAM-UJEMNE;Acinetobacter;;A. baumanii
+NIEFERMENTUJĄCE PAŁECZKI GRAM-UJEMNE;Acinetobacter;;A. lwoffii
+NIEFERMENTUJĄCE PAŁECZKI GRAM-UJEMNE;Acinetobacter;;A. haemolyticus
+NIEFERMENTUJĄCE PAŁECZKI GRAM-UJEMNE;Stenotrophomonas;;S. maltophilia
+NIEFERMENTUJĄCE PAŁECZKI GRAM-UJEMNE;Burkholderia;;B. cepacia
+NIEFERMENTUJĄCE PAŁECZKI GRAM-UJEMNE;Burkholderia;;B. gladioli
+NIEFERMENTUJĄCE PAŁECZKI GRAM-UJEMNE;Burkholderia;;B. mallei
+NIEFERMENTUJĄCE PAŁECZKI GRAM-UJEMNE;Burkholderia;;B. pseudomallei
+NIEFERMENTUJĄCE PAŁECZKI GRAM-UJEMNE;Brucella;;B. melitensis
+NIEFERMENTUJĄCE PAŁECZKI GRAM-UJEMNE;Brucella;;B. abortus
+NIEFERMENTUJĄCE PAŁECZKI GRAM-UJEMNE;Bordetella;;B. pertussis
+NIEFERMENTUJĄCE PAŁECZKI GRAM-UJEMNE;Bordetella;;B. parapertussis
+NIEFERMENTUJĄCE PAŁECZKI GRAM-UJEMNE;Bordetella;;B. bronchiseptica
+NIEFERMENTUJĄCE PAŁECZKI GRAM-UJEMNE;Francisella;;F. tularensis
+NIEFERMENTUJĄCE PAŁECZKI GRAM-UJEMNE;Legionella;;L. pneumophila
+NIEFERMENTUJĄCE PAŁECZKI GRAM-UJEMNE;Moraxella;;M. catarrhalis
+NIEFERMENTUJĄCE PAŁECZKI GRAM-UJEMNE;Gardnerella;;G. vaginalis
+NIEFERMENTUJĄCE PAŁECZKI GRAM-UJEMNE;Calymmatobacterium;;C. granulomatis
+NIEFERMENTUJĄCE PAŁECZKI GRAM-UJEMNE;Haemophilus;;H. influenzae
+NIEFERMENTUJĄCE PAŁECZKI GRAM-UJEMNE;Haemophilus;;H. parainfluenzae
+NIEFERMENTUJĄCE PAŁECZKI GRAM-UJEMNE;Haemophilus;;H. ducreyi
+NIEFERMENTUJĄCE PAŁECZKI GRAM-UJEMNE;Haemophilus;;H. haemoliticus
+BEZTLENOWCE;Bacteroides;;B. fragilis
+BEZTLENOWCE;Fusobacterium;;
+BEZTLENOWCE;Porphyromonas;;
+BEZTLENOWCE;Prevotella;;
+BEZTLENOWCE;Actinomyces;;A.  israeli
+BEZTLENOWCE;Bifidobacterium;;
+BEZTLENOWCE;Peptostreptococcus;;
+BEZTLENOWCE;Peptococcus;;
+BEZTLENOWCE;Clostridium;;C. perfringens
+BEZTLENOWCE;Clostridium;; C. septicum
+BEZTLENOWCE;Clostridium;; C. histolyticum
+BEZTLENOWCE;Clostridium;;C. sordellii
+BEZTLENOWCE;Clostridium;; C. novyi
+BEZTLENOWCE;Clostridium;; C. tetani
+BEZTLENOWCE;Clostridium;;	C. botulinum
+BEZTLENOWCE;Clostridium;; C. difficille
+PRĄTKI;Mycobacterium;Mycobacterium tuberculosis complex (Mtb complex):;M. tuberculosis (Ttb)
+PRĄTKI;Mycobacterium;Mycobacterium tuberculosis complex (Mtb complex):;M. bovis 
+PRĄTKI;Mycobacterium;Mycobacterium tuberculosis complex (Mtb complex):;M. bovis BCG
+PRĄTKI;Mycobacterium;Mycobacterium tuberculosis complex (Mtb complex):;M. africanum
+PRĄTKI;Mycobacterium;Mycobacterium tuberculosis complex (Mtb complex):;M. microtii
+PRĄTKI;Mycobacterium;Mycobacterium tuberculosis complex (Mtb complex):;M. canetti
+PRĄTKI;Mycobacterium;M. avium-intracelulare complex;M. avium 
+PRĄTKI;Mycobacterium;M. avium-intracelulare complex;M. intracelulare
+PRĄTKI;Mycobacterium;;M. leprae
+INNE KLINICZNIE ISTOTNE BAKTERIE;Neisseria;;N. meningitidis
+INNE KLINICZNIE ISTOTNE BAKTERIE;Neisseria;;N. gonorrhoeae
+INNE KLINICZNIE ISTOTNE BAKTERIE;Mycoplasma;;M. pneumoniae
+INNE KLINICZNIE ISTOTNE BAKTERIE;Mycoplasma;;M. hominis
+INNE KLINICZNIE ISTOTNE BAKTERIE;Mycoplasma;; M. genitalum
+INNE KLINICZNIE ISTOTNE BAKTERIE;Ureaplasma;;U. urealyticum
+INNE KLINICZNIE ISTOTNE BAKTERIE;Chlamydia;;Ch. trachomatis - Biotyp trachoma i LGV 
+INNE KLINICZNIE ISTOTNE BAKTERIE;Chlamydia;;Ch. psittaci
+INNE KLINICZNIE ISTOTNE BAKTERIE;Chlamydia;;Ch. pneumoniae
+INNE KLINICZNIE ISTOTNE BAKTERIE;Treponema;;T. pallidum
+INNE KLINICZNIE ISTOTNE BAKTERIE;Borrelia;;B. burgdorferi
+INNE KLINICZNIE ISTOTNE BAKTERIE;Helicobacter;;H. pylori
+INNE KLINICZNIE ISTOTNE BAKTERIE;Campylobacter;;C. coli
+INNE KLINICZNIE ISTOTNE BAKTERIE;Campylobacter;;C. jejuni
+INNE KLINICZNIE ISTOTNE BAKTERIE;Vibrio;;V. cholerae
+INNE KLINICZNIE ISTOTNE BAKTERIE;Vibrio;;V. fluvialis
+INNE KLINICZNIE ISTOTNE BAKTERIE;Vibrio;;V. parahaemolyticus
+INNE KLINICZNIE ISTOTNE BAKTERIE;Bacillus;;B. cereus
+INNE KLINICZNIE ISTOTNE BAKTERIE;Bacillus;;B. anthracis
+INNE KLINICZNIE ISTOTNE BAKTERIE;Listeria;;L. monocytogenes
+INNE KLINICZNIE ISTOTNE BAKTERIE;Listeria;;L.  ivanovii
+INNE KLINICZNIE ISTOTNE BAKTERIE;Listeria;;L. seeligeri
+INNE KLINICZNIE ISTOTNE BAKTERIE;Corynebacterium;;C. diphteriae
+INNE KLINICZNIE ISTOTNE BAKTERIE;Corynebacterium;;C.  ulcerans
+INNE KLINICZNIE ISTOTNE BAKTERIE;Corynebacterium;;C.  pseudotuberculosis
+INNE KLINICZNIE ISTOTNE BAKTERIE;Corynebacterium;;C. jeikeium
+INNE KLINICZNIE ISTOTNE BAKTERIE;Corynebacterium;;C. amycolatum
+INNE KLINICZNIE ISTOTNE BAKTERIE;Corynebacterium;;C. striatum
+INNE KLINICZNIE ISTOTNE BAKTERIE;Corynebacterium;;C. resistens
+INNE KLINICZNIE ISTOTNE BAKTERIE;Coxiella;;C. burnetii
+INNE KLINICZNIE ISTOTNE BAKTERIE;Rickettsia;;R. prowazekii 
+INNE KLINICZNIE ISTOTNE BAKTERIE;Rickettsia;;R. rickettsii
+INNE KLINICZNIE ISTOTNE BAKTERIE;Bartonella;;B. hensele
+INNE KLINICZNIE ISTOTNE BAKTERIE;Bartonella;;B. quintana
+INNE KLINICZNIE ISTOTNE BAKTERIE;Leptospira;;
+GRZYBY;Saccharomyces;;S. cerevisiae
+GRZYBY;Candida;;C. albicans
+GRZYBY;Candida;;C. dubliniensis
+GRZYBY;Candida;;C. krusei
+GRZYBY;Candida;;C. glabrata
+GRZYBY;Candida;;C. tropicalis
+GRZYBY;Candida;;C. kefir
+GRZYBY;Candida;;C. guillermondii
+GRZYBY;Candida;;C. parapsilosis
+GRZYBY;Geotrichium;;G. candidum 
+GRZYBY;Cryptococcus;;C. neoformans
+GRZYBY;Trichosporon;;T. cutaneum 
+GRZYBY;Rhodotorula;;R. rubra 
+GRZYBY;Aspergillus;;A. fumigatus
+GRZYBY;Aspergillus;;A. flavus
+GRZYBY;Aspergillus;;A. terreus
+GRZYBY;Aspergillus;;A. niger
+GRZYBY;Penicillium;;
+GRZYBY;Scopularopsis;;S. brevicaulis 
+GRZYBY;Mallassezia;;M. furfur
+GRZYBY;Microsporum;;M. gypseum
+GRZYBY;Microsporum;;M. canis 
+GRZYBY;Epidermophyton;;E. floccosum
+GRZYBY;Trichophyton;;T. rubrum
+GRZYBY;Trichophyton;;T. mentagrophytes
+GRZYBY;Mucor;;
+GRZYBY;Rhizopus;;

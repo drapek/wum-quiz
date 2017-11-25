@@ -1,6 +1,11 @@
+import random
+
 from flask.templating import render_template
+from flask import request, redirect, url_for
+from sqlalchemy.orm import joinedload
 
 from app import app
+from app.models import Category, Element
 
 
 @app.route('/')
@@ -10,11 +15,27 @@ def index():
 
 @app.route('/rand_element')
 def rand_elem():
-    # TODO implement this
+    what_to_rand = request.args.get('what', None)
+    if not what_to_rand or (what_to_rand != 'category' and what_to_rand != 'element'):
+        return redirect(url_for('index'))
+
+    fiche_main = None
+    fiche_hidden = []
+
+    if what_to_rand == 'category':
+        categories = Category.query.options(joinedload('elements')).all()
+        fiche_main = categories[random.randint(0, len(categories) - 1)]
+        fiche_hidden = fiche_main.elements
+
+    if what_to_rand == 'element':
+        elements = Element.query.all()
+        fiche_main = elements[random.randint(0, len(elements) - 1)]
+        fiche_hidden = fiche_main.category
+
     randed_values = {
-        'fiche_hidden': 'Klebsiella',
-        'fiche_main': 'K. pneumoniae subsp. pneumoniae',
-        'selected': 'element'
+        'fiche_hidden': fiche_hidden,
+        'fiche_main': fiche_main,
+        'selected': what_to_rand
     }
     return render_template('rand_element.html', randed_values=randed_values)
 

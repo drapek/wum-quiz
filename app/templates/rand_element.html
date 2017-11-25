@@ -7,9 +7,19 @@
 <body>
 <h2>Twoja fiszka</h2>
 <div class="fiche">
-    <div class="fiche-value">{{randed_values.fiche_main}}</div>
+    <div class="fiche-value">
+        {% if randed_values.selected == 'category' %}
+            Podaj wszystkie elementy dla kategorii
+        {% endif %}
+        {% if randed_values.selected == 'element' %}
+            Podaj nazwę kategorii dla następującego elementu
+        {% endif %}
+        {{randed_values.fiche_main.name}}
+    </div>
     <div id="fiche-answer" style="display: none;">
-        {{randed_values.fiche_hidden}}
+        {% for answer in randed_values.fiche_hidden %}
+            {{answer.name}} </br>
+        {% endfor %}
     </div>
     <button type="button" onclick="show_answer()">Pokaż odpowiedź</button>
 </div>
