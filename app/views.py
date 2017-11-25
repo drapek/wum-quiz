@@ -6,6 +6,8 @@ from sqlalchemy.orm import joinedload
 
 from app import app
 from app.models import Category, Element
+from app.functions import db_create
+from app.functions import db_migrate
 
 
 @app.route('/')
@@ -48,7 +50,11 @@ def list_everything():
 
 @app.route('/manage')
 def manage():
-    # TODO implement this
-    return 'Not implemented yet'
+    command = request.args.get('command', None)
+    if command == 'db_create':
+        db_create()
+    if command == 'db_migrate':
+        db_migrate()
+    return 'Runned command {}'.format(command)
 
 
