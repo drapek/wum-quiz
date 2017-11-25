@@ -29,7 +29,7 @@ def rand_elem():
         fiche_hidden = fiche_main.elements
 
     if what_to_rand == 'element':
-        elements = Element.query.all()
+        elements = Element.query.options(joinedload('category')).all()
         fiche_main = elements[random.randint(0, len(elements) - 1)]
         fiche_hidden = fiche_main.category
 

@@ -15,11 +15,21 @@
             Podaj nazwę kategorii dla następującego elementu
         {% endif %}
         {{randed_values.fiche_main.name}}
+
     </div>
     <div id="fiche-answer" style="display: none;">
-        {% for answer in randed_values.fiche_hidden %}
-            {{answer.name}} </br>
-        {% endfor %}
+        {% if not randed_values.fiche_hidden %}
+             Brak wyników
+        {% endif %}
+        {% if randed_values.selected == 'category' %}
+            {% for answer in randed_values.fiche_hidden %}
+                {{answer.name}} </br>
+            {% endfor %}
+        {% endif %}
+        {% if randed_values.selected == 'element' %}
+            {{ randed_values.fiche_hidden.name }}
+        {% endif %}
+
     </div>
     <button type="button" onclick="show_answer()">Pokaż odpowiedź</button>
 </div>
