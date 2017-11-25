@@ -6,8 +6,7 @@ from sqlalchemy.orm import joinedload
 
 from app import app
 from app.models import Category, Element
-from app.functions import db_create
-from app.functions import db_migrate
+from app.functions import db_create, db_migrate, import_csv_data
 
 
 @app.route('/')
@@ -55,6 +54,8 @@ def manage():
         db_create()
     if command == 'db_migrate':
         db_migrate()
+    if command == 'init_db':
+        import_csv_data('example_data/import_data.csv')
     return 'Runned command {}'.format(command)
 
 
