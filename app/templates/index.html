@@ -1,19 +1,29 @@
+{% extends "bootstrap/base.html" %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>WUM quiz - strona główna</title>
+    {% block title %}WUM quiz - strona główna{% endblock %}
+    <title></title>
 </head>
 <body>
-    <div class="hello-section">
-        <h1>WUM quiz</h1>
-        <p>Znalazłeś się na stronie pozwalającej przećwiczyć znajomość bakterii i grzybów przed egzaminem.</p>
-    </div>
-    <div class="naviagation">
-    <a href="/rand_element?what=category">Losuj kategorię</a>
-    <a href="/rand_element?what=element">Losuj bakterię lub grzyba</a>
-    <a href="/list_everything">Pokaż bazę bakteri i grzybów</a>
-    </div>
+    {% block content %}
+            <div class="row">
+                <div class="col-md-4  col-md-offset-4 ">
+                    <div class="hello-section">
+                        <img src="http://neuroskoki.pl/wp-content/uploads/2016/05/szubienica.jpg" class="img-rounded" style="max-width: 400px;" alt="">
+                        <h1 class="text-center">Mikrobiologia quiz</h1>
+                        <p>Znalazłeś się na stronie pozwalającej przećwiczyć znajomość bakterii i grzybów przed egzaminem.</p>
+                    </div>
+                    <div class="naviagation">
+                    <a class="btn btn-primary" style="margin: 5px;" href="/rand_element?what=category">Losuj kategorię</a>
+                    <a class="btn btn-primary" style="margin: 5px;" href="/rand_element?what=element">Losuj bakterię lub grzyba</a>
+                    <a class="btn btn-primary" style="margin: 5px;" href="/list_everything">Pokaż bazę bakteri i grzybów</a>
+                    </div>
+                </div>
+            </div>
+
+    {% endblock %}
 
 </body>
 </html>

@@ -1,46 +1,60 @@
+{% extends "bootstrap/base.html" %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>WUM quiz - Wylosowany element</title>
+    {% block title %}WUM quiz - Wylosowany element{% endblock %}
 </head>
 <body>
-<h2>Twoja fiszka</h2>
-<div class="fiche">
-    <div class="fiche-value">
-        {% if randed_values.selected == 'category' %}
-            Podaj wszystkie elementy dla kategorii
-        {% endif %}
-        {% if randed_values.selected == 'element' %}
-            Podaj nazwę kategorii dla następującego elementu
-        {% endif %}
-        {{randed_values.fiche_main.name}}
+{% block content %}
+    <div class="container">
+        <h2>Twoja fiszka</h2>
+        <div class="fiche" style="padding: 10px">
+            <div class="fiche-value" style="margin: 5px">
+                {% if randed_values.selected == 'category' %}
+                    Podaj wszystkie elementy dla kategorii
+                {% endif %}
+                {% if randed_values.selected == 'element' %}
+                    Podaj nazwę kategorii dla następującego elementu
+                {% endif %}
+                <strong>{{randed_values.fiche_main.name}}</strong>
 
-    </div>
-    <div id="fiche-answer" style="display: none;">
-        {% if not randed_values.fiche_hidden %}
-             Brak wyników
-        {% endif %}
-        {% if randed_values.selected == 'category' %}
-            {% for answer in randed_values.fiche_hidden %}
-                {{answer.name}} </br>
-            {% endfor %}
-        {% endif %}
-        {% if randed_values.selected == 'element' %}
-            {{ randed_values.fiche_hidden.name }}
-        {% endif %}
+            </div>
+            <div id="fiche-answer" style="display: none;">
+                {% if not randed_values.fiche_hidden %}
+                    <ul class="list-group" style="max-width: 400px">
+                        <li class="list-group-item list-group-item-warning">
+                            Brak elementów
+                        </li>
+                    </ul>
 
+                {% endif %}
+                {% if randed_values.selected == 'category' %}
+                    <ul class="list-group" style="max-width: 400px">
+                        {% for answer in randed_values.fiche_hidden %}
+                            <li class="list-group-item list-group-item-info">
+                            {{answer.name}}
+                            </li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+                {% if randed_values.selected == 'element' %}
+                    <ul class="list-group" style="max-width: 400px">
+                        <li class="list-group-item list-group-item-info">
+                            {{ randed_values.fiche_hidden.name }}
+                        </li>
+                    </ul>
+
+                {% endif %}
+
+            </div>
+            <button type="button"  class="btn btn-info" onclick="document.getElementById('fiche-answer').style.display = ''">Pokaż odpowiedź</button>
+        </div>
+        <div class="navigation" style="padding: 10px">
+            <a class="btn btn-primary" href="/">< Wróć</a>
+            <a class="btn btn-primary" href="rand_element?what={{randed_values.selected}}"> Losuj nową fiszkę</a>
+        </div>
     </div>
-    <button type="button" onclick="show_answer()">Pokaż odpowiedź</button>
-</div>
-<div class="navigation">
-    <a href="/">< Wróć</a>
-    <a href="rand_element?what={{randed_values.selected}}"> Losuj nową fiszkę</a>
-</div>
+{% endblock %}
 </body>
-<script>
-    function show_answer() {
-        document.getElementById('fiche-answer').style.display = '';
-    }
-</script>
 </html>
