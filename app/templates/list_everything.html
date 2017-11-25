@@ -4,46 +4,28 @@
 <head>
     <meta charset="UTF-8">
     {% block title %}WUM quiz - Lista wszystkich rekordów{% endblock %}
+    {% block styles %}
+        {{super()}}
+        <link rel="stylesheet" type="text/css"  href="{{ url_for('static', filename='style.css') }}" />
+    {% endblock styles %}
 </head>
 <body>
 {% block content %}
     <div class="container">
+
         <h2>Lista wszystkich dostępnych rekordów</h2>
-        <!-- TODO Rebuild this to gain real data -->
-        <h2> STRONA W BUDOWIE - Dane poniższe nie są pełne</h2>
-        <div class="all-elements-list">
-            <div class="list-category-type">
-                ENTEROBACTERIACEAE
-                <p class="list-category">
-                    Escherichia
-                </p>
-                <p class="list-element">
-                    E. coli
-                </p>
-                <p class="list-category">
-                    Escherichia
-                </p>
-                <p class="list-element">
-                    S. enterica subsp. enterica
-                </p>
-
-                <div class="list-element-type">
-                    Serowary
-                <p class="list-element">
-                    S. Enteritidis
-                </p>
-                <p class="list-element">
-                    S. Typhi
-                </p>
-                <p class="list-element">
-                    S. Paratyphi
-                </p>
-                <p class="list-element">
-                    S, Typhimurium
-                </p>
-                </div>
-            </div>
-
+        <div>
+            {% for category_type in all_elements %}
+                {% if category_type.name %}
+                <div class="list-all-elems list-all-elems--category-type">{{ category_type.name }}</div>
+                {% endif %}
+                {% for category in category_type.categories %}
+                    <div class="list-all-elems list-all-elems--category">{{ category.name }}</div>
+                    {% for element in category.elements %}
+                        <div class="list-all-elems list-all-elems--element">{{ element.name }}</div>
+                    {% endfor %}
+                {% endfor %}
+            {% endfor %}
         </div>
 
         <div class="navigation">

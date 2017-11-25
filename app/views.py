@@ -5,7 +5,7 @@ from flask import request, redirect, url_for
 from sqlalchemy.orm import joinedload
 
 from app import app
-from app.models import Category, Element
+from app.models import Category, Element, CategoryType
 from app.functions import db_create, db_migrate, import_csv_data
 
 
@@ -43,8 +43,14 @@ def rand_elem():
 
 @app.route('/list_everything')
 def list_everything():
-    # TODO implement this
-    return render_template('list_everything.html')
+    result = []
+    no_name_category_type = {}
+    elements_without_category_type = Category.query.filter(Category.category_type == None).all()
+    no_name_category_type['categories'] = elements_without_category_type
+    result.append(no_name_category_type)
+    all_categories_types = CategoryType.query.options(joinedload('categories')).all()
+    result += all_categories_types
+    return render_template('list_everything.html', all_elements=result)
 
 
 @app.route('/manage')

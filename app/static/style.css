@@ -1,0 +1,16 @@
+div.list-all-elems--category-type {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: larger;
+    margin-top: 10px;
+}
+
+div.list-all-elems--category {
+    font-weight: bold;
+    font-style: italic;
+}
+
+div.list-all-elems--element {
+    font-style: italic;
+    margin-left: 40px;
+}
